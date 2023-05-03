@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp.Singleton_pattern
+﻿namespace ConsoleApp.Singleton_pattern
 {
     public sealed class Singleton
     {
@@ -25,4 +19,7 @@ namespace ConsoleApp.Singleton_pattern
             // Method implementation
         }
     }
+
+    //Singleton s1 = Singleton.Instance;
+    //s1.SomeMethod();
 }
